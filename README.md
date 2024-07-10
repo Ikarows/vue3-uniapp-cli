@@ -1,10 +1,10 @@
 <div align="center">
 <p><img width="150" src="https://avatars0.githubusercontent.com/u/25151659?s=460&v=4"></p>
 
-<h1>cos-uniapp</h1>
+<h1>vue3-uniapp-cli</h1>
 
 <p>
-   <strong>vue3 + vite3 + ts 打造的 uniapp 模版</strong>
+   <strong>vue3 + vite3 打造的 uniapp 模版</strong>
 </p>
 
 <p>
@@ -30,7 +30,7 @@
 ## 项目地址
 
 ```shell
-git clone https://github.com/Ikarows/cos-uniapp.git
+git clone https://github.com/Ikarows/vue3-uniapp-cli.git
 ```
 
 <br />
@@ -44,7 +44,6 @@ git clone https://github.com/Ikarows/cos-uniapp.git
 
 - Vue3
 - Vite3
-- TypeScript
 - Axios
 - Pinia
 - Eslint
@@ -110,8 +109,8 @@ npm run lint
 │   ├── api            # API接口
 │   ├── components     # 公用组件
 │   ├── config         # 配置文件
-│   │   ├── http.ts    # axios 封装
-│   │   └── request.ts # 请求封装(get，post)
+│   │   ├── http.js    # axios 封装
+│   │   └── request.js # 请求封装(get，post)
 │   ├── pages          # 页面目录
 │   ├── static         # 资源文件夹
 │   │   ├── img        # 图库
@@ -120,11 +119,11 @@ npm run lint
 │   ├── store          # Pinia 目录
 │   ├── utils          # 公用函数目录
 │   ├── App.vue        # vue 根文件
-│   ├── env.d.ts       
-│   ├── main.ts        # vue 入口js
+│   ├── env.d.js       
+│   ├── main.js        # vue 入口js
 │   ├── manifest.json  # hubildx项目打包配置
 │   ├── pages.json     # 路由配置
-│   ├── shime-vue.d.ts # 去除qs提示配置
+│   ├── shime-vue.d.js # 去除qs提示配置
 │   └── uni.scss       # 默认样式
 │
 ├── .eslintignore      # eslint忽略文件
@@ -136,7 +135,7 @@ npm run lint
 ├── package.json       # 依赖包
 ├── README.md          # 项目说明
 ├── upload.mjs         # 自动化部署
-└── vite.config.ts     # vite配置文件
+└── vite.config.js     # vite配置文件
 ```
 
 ## 打包H5自动化部署
